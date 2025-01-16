@@ -12,7 +12,7 @@ const config: Config = {
   baseUrl: '/',
 
   organizationName: 'tomartisan',
-  projectName: 'PyLang',
+  projectName: 'pylang',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
