@@ -59,22 +59,56 @@ const config: Config = {
 
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
+    docs: {
+      versionPersistence: "localStorage",
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true,
+      },
+    },
     navbar: {
-      title: 'My Site',
+      title: 'Pylang Home',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Pylang Logo',
         src: 'img/logo.svg',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'basicSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Basic',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          type: 'docSidebar',
+          sidebarId: 'advancedSidebar',
+          position: 'left',
+          label: 'Advanced',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'frameworksSidebar',
+          position: 'left',
+          label: 'Frameworks',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'apiSidebar',
+          position: 'left',
+          label: 'For API',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'aiSidebar',
+          position: 'left',
+          label: 'For AI',
+        },
+        {
+          type: "search",
+          position: "right",
+        },
+        {
+          href: 'https://github.com/tomartisan/pylang',
           label: 'GitHub',
           position: 'right',
         },
@@ -84,28 +118,28 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Help',
           items: [
             {
-              label: 'Tutorial',
+              label: 'What is this',
               to: '/docs/intro',
+            },
+            {
+              label: 'How to use',
+              to: '/docs/usage',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Social Media',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discordapp.com/invite/tomartisan',
             },
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Youtube',
+              href: 'https://www.youtube.com/@imtomartisan',
             },
           ],
         },
@@ -114,16 +148,16 @@ const config: Config = {
           items: [
             {
               label: 'Blog',
-              to: '/blog',
+              href: 'https://tomartisan.com',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Contact',
+              href: 'mailto:hello@tangkunyin.com',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Pylang, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
