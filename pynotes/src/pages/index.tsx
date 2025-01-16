@@ -31,7 +31,7 @@ function HomepageHeader() {
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout title={`Hello from ${siteConfig.title}`} description="This is a series of articles about python fullstack learning notes.">
+    <Layout title={`Hello from ${siteConfig.title}`} description="This is a series of articles about python language learning notes, the way to fullstack of python world.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

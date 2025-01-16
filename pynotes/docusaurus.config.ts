@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Pylang',
+  title: 'PyLang',
   tagline: 'Python learning notes',
   favicon: 'img/favicon.ico',
 
@@ -12,7 +12,7 @@ const config: Config = {
   baseUrl: '/',
 
   organizationName: 'tomartisan',
-  projectName: 'pylang',
+  projectName: 'PyLang',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -67,9 +67,9 @@ const config: Config = {
       },
     },
     navbar: {
-      title: 'Pylang Home',
+      title: 'PyLang Home',
       logo: {
-        alt: 'Pylang Logo',
+        alt: 'PyLang Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -157,7 +157,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Pylang, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} PyLang, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
