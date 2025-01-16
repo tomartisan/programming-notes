@@ -6,11 +6,12 @@
   "packageManager": "pnpm@9.15.2",
   "scripts": {
     "nr": "nr",
-    "prettier": "cd pynotes && nr format:docs",
-    "clear": "cd pynotes && nr clear",
     "start": "cd pynotes && nr start",
     "background:devs": "pm2 start app-dev.json",
-    "background:prod": "pm2 start app.json"
+    "background:prod": "pm2 start app.json",
+    "clear": "cd pynotes && nr clear",
+    "publish": "cd pynotes && nr build",
+    "prettier": "cd pynotes && nr format:docs"
   },
   "devDependencies": {
     "@antfu/ni": "^23.2.0",
