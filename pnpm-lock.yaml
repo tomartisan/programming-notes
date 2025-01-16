@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      '@antfu/ni':
+        specifier: ^23.2.0
+        version: 23.2.0
       gulp:
         specifier: ^5.0.0
         version: 5.0.0
@@ -28,6 +31,10 @@ importers:
         version: 2.3.3
 
 packages:
+
+  '@antfu/ni@23.2.0':
+    resolution: {integrity: sha512-PsqWG9QcgTQ0eyEMxYaaJMxoCaCmy8InPkToC7MQuOHHUPQknMZtCrnzZSZDXk+X9Z93eGFh+v0mE2X6FWNtuw==}
+    hasBin: true
 
   '@babel/runtime@7.26.0':
     resolution: {integrity: sha512-FDSOghenHTiToteC/QRlv2q3DhPZ/oOXTBoirfWNx1Cx3TMVcGWQtMMmQcSvb/JjpNeGzx8Pq/b4fKEJuWm1sw==}
@@ -2047,6 +2054,8 @@ packages:
     resolution: {integrity: sha512-p4a9I6X6nu6IhoGmBqAcbJy1mlC4j27vEPZX9F4L4/vZT3Lyq1VkFHw/V/PUcB9Buo+DG3iHkT0x3Qya58zc3g==}
 
 snapshots:
+
+  '@antfu/ni@23.2.0': {}
 
   '@babel/runtime@7.26.0':
     dependencies:
