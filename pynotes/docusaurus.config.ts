@@ -34,7 +34,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/tomartisan/pylang',
+            'https://github.com/tomartisan/pylang/tree/master/pynotes',
         },
         theme: {
           customCss: './src/css/custom.css',
