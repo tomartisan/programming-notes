@@ -1,0 +1,39 @@
+{
+  "name": "pylang",
+  "version": "1.0.0",
+  "description": "The road to python world. learning python from here",
+  "main": "index.js",
+  "packageManager": "pnpm@9.15.2",
+  "scripts": {
+    "prettier": "cd pynotes && nr format:docs",
+    "clear": "cd pynotes && nr clear",
+    "start": "cd pynotes && nr start",
+    "background:devs": "pm2 start app-dev.json",
+    "background:prod": "pm2 start app.json"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-cache": "^1.1.3",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-webp": "^5.0.0",
+    "pm2": "^5.4.3",
+    "webp-converter": "^2.3.3"
+  },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomartisan/pylang.git"
+  },
+  "keywords": [
+    "python",
+    "python learning"
+  ],
+  "author": "hello@tangkunyin.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomartisan/pylang/issues"
+  },
+  "homepage": "https://github.com/tomartisan/pylang#readme",
+  "engines": {
+    "node": ">=20"
+  }
+}

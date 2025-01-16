@@ -1,0 +1,5 @@
+{
+    "name": "pynotes",
+    "script": "pnpm run build && pnpm run serve",
+    "cwd":"./pynotes"
+}
