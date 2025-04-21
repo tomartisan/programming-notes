@@ -1,11 +1,11 @@
-# PyLang
+# ProNotes
 
-> The way to python fullstack development. Including both notes and codes.
+> The way to programming. Includes both notes and codes.
 
 ## What is this
 
-This is a series of articles about python language learning notes.
+This is a series of articles about programming language learning notes.
 
 ## How to use
 
-Visit [PyLang](https://pylang.tomartisan.com) directly or clone this repository for offline.
+Visit [ProNotes](https://pronotes.tomartisan.com) directly or clone this repository for offline.

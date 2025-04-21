@@ -1,17 +1,17 @@
 {
-  "name": "pylang",
+  "name": "pronotes",
   "version": "1.0.0",
-  "description": "The road to python world. learning python from here",
+  "description": "The road to coding world. learning programming from here",
   "main": "index.js",
   "packageManager": "pnpm@9.15.2",
   "scripts": {
     "nr": "nr",
-    "start": "cd pynotes && nr start",
+    "start": "cd pronotes && nr start",
     "background:devs": "pm2 start app-dev.json",
     "background:prod": "pm2 start app.json",
-    "clear": "cd pynotes && nr clear",
-    "publish": "cd pynotes && nr build",
-    "prettier": "cd pynotes && nr format:docs"
+    "clear": "cd pronotes && nr clear",
+    "publish": "cd pronotes && nr build",
+    "prettier": "cd pronotes && nr format:docs"
   },
   "devDependencies": {
     "@antfu/ni": "^23.2.0",
@@ -24,18 +24,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tomartisan/pylang.git"
+    "url": "git+https://github.com/tomartisan/pronotes.git"
   },
   "keywords": [
-    "python",
-    "python learning"
+    "coding",
+    "programming",
+    "programming learning"
   ],
   "author": "hello@tangkunyin.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tomartisan/pylang/issues"
+    "url": "https://github.com/tomartisan/pronotes/issues"
   },
-  "homepage": "https://github.com/tomartisan/pylang#readme",
+  "homepage": "https://github.com/tomartisan/pronotes#readme",
   "engines": {
     "node": ">=20"
   }

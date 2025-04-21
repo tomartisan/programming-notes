@@ -3,16 +3,16 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'PyLang',
-  tagline: 'Python learning notes',
+  title: 'ProNotes',
+  tagline: 'Programming notes',
   favicon: 'img/favicon.ico',
 
 
-  url: 'https://pylang.tomartisan.com',
+  url: 'https://pronotes.tomartisan.com',
   baseUrl: '/',
 
   organizationName: 'tomartisan',
-  projectName: 'pylang',
+  projectName: 'pronotes',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -34,7 +34,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/tomartisan/pylang/tree/master/pynotes',
+            'https://github.com/tomartisan/pronotes/tree/master/pronotes',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -71,9 +71,9 @@ const config: Config = {
       },
     },
     navbar: {
-      title: 'PyLang Home',
+      title: 'ProNotes Home',
       logo: {
-        alt: 'PyLang Logo',
+        alt: 'ProNotes Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -112,7 +112,7 @@ const config: Config = {
           position: "right",
         },
         {
-          href: 'https://github.com/tomartisan/pylang',
+          href: 'https://github.com/tomartisan/pronotes',
           label: 'GitHub',
           position: 'right',
         },
@@ -161,7 +161,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} PyLang, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} ProNotes, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
