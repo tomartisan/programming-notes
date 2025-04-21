@@ -1,5 +1,0 @@
-{
-    "name": "pronotes",
-    "script": "pnpm run clear && pnpm run start",
-    "cwd":"./pronotes"
-}

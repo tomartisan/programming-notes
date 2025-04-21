@@ -1,7 +1,0 @@
-{
-    "printWidth": 280,
-    "endOfLine": "auto",
-    "plugins": [
-        "prettier-plugin-lint-md"
-    ]
-}
