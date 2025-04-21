@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'ProNotes',
-  tagline: 'Programming notes',
+  tagline: 'programming notes',
   favicon: 'img/favicon.ico',
 
 
