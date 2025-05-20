@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
 
-  url: 'https://pronotes.tomartisan.com',
+  url: 'https://pro.tomartisan.com',
   baseUrl: '/',
 
   organizationName: 'tomartisan',

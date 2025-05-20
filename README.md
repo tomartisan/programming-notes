@@ -8,4 +8,4 @@ This is a series of articles about programming language learning notes.
 
 ## How to use
 
-Visit [ProNotes](https://pronotes.tomartisan.com) directly or clone this repository for offline.
+Visit [ProNotes](https://pro.tomartisan.com) directly or clone this repository for offline.
