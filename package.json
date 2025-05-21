@@ -1,5 +1,5 @@
 {
-  "name": "pronotes",
+  "name": "programming-notes",
   "version": "1.0.0",
   "description": "The road to coding world. learning programming from here",
   "main": "index.js",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tomartisan/pronotes.git"
+    "url": "https://github.com/tomartisan/programming-notes.git"
   },
   "keywords": [
     "coding",
@@ -34,9 +34,9 @@
   "author": "hello@tangkunyin.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tomartisan/pronotes/issues"
+    "url": "https://github.com/tomartisan/programming-notes/issues"
   },
-  "homepage": "https://github.com/tomartisan/pronotes#readme",
+  "homepage": "https://github.com/tomartisan/programming-notes#readme",
   "engines": {
     "node": ">=20"
   }

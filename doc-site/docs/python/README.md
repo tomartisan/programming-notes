@@ -1,4 +1,4 @@
-# For-API guideline
+# Python guideline
 
 ## What is this
 

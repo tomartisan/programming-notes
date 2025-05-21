@@ -1,4 +1,4 @@
-# For-AI guideline
+# Rust guideline
 
 ## What is this
 

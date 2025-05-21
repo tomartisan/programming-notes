@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'ProNotes',
-  tagline: 'programming notes',
+  title: 'Programming Notes',
+  tagline: 'The way to coding, from beginner to master',
   favicon: 'img/favicon.ico',
 
 
@@ -12,7 +12,7 @@ const config: Config = {
   baseUrl: '/',
 
   organizationName: 'tomartisan',
-  projectName: 'pronotes',
+  projectName: 'programming-notes',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -34,7 +34,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/tomartisan/pronotes/tree/master/pronotes',
+            'https://github.com/tomartisan/programming-notes/tree/master/doc-site',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -71,48 +71,48 @@ const config: Config = {
       },
     },
     navbar: {
-      title: 'ProNotes Home',
+      title: 'Home',
       logo: {
-        alt: 'ProNotes Logo',
+        alt: 'Programming Notes Logo',
         src: 'img/logo.svg',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'basicSidebar',
+          sidebarId: 'golangSidebar',
           position: 'left',
-          label: 'Basic',
+          label: 'Go',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'advancedSidebar',
+          sidebarId: 'kotlinSidebar',
           position: 'left',
-          label: 'Advanced',
+          label: 'Kotlin',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'frameworksSidebar',
+          sidebarId: 'pythonSidebar',
           position: 'left',
-          label: 'Frameworks',
+          label: 'Python',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'apiSidebar',
+          sidebarId: 'rustSidebar',
           position: 'left',
-          label: 'For API',
+          label: 'Rust',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'aiSidebar',
+          sidebarId: 'swiftSidebar',
           position: 'left',
-          label: 'For AI',
+          label: 'Swift',
         },
         {
           type: "search",
           position: "right",
         },
         {
-          href: 'https://github.com/tomartisan/pronotes',
+          href: 'https://github.com/tomartisan/programming-notes',
           label: 'GitHub',
           position: 'right',
         },
@@ -138,30 +138,30 @@ const config: Config = {
           title: 'Social Media',
           items: [
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/tomartisan',
+              label: 'X',
+              href: 'https://x.com/tomartisan',
             },
             {
               label: 'Youtube',
-              href: 'https://www.youtube.com/@imtomartisan',
-            },
+              href: 'https://www.youtube.com/@itomartisan',
+            }
           ],
         },
         {
           title: 'More',
           items: [
             {
-              label: 'Blog',
+              label: 'Chinese Posts',
               href: 'https://tomartisan.com',
             },
             {
-              label: 'Contact',
-              href: 'mailto:hello@tangkunyin.com',
+              label: 'English Posts',
+              href: 'https://tomartisan.medium.com',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} ProNotes, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Programming Notes, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

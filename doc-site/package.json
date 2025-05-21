@@ -1,5 +1,5 @@
 {
-  "name": "pronotes",
+  "name": "programming-notes",
   "version": "1.0.0",
   "packageManager": "pnpm@9.15.2",
   "scripts": {

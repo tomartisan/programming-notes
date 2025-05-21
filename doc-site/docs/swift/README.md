@@ -1,4 +1,4 @@
-# Basic guideline
+# Swift guideline
 
 ## What is this
 
