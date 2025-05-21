@@ -1,10 +1,10 @@
-# Go 语言基础
+# golang-basic
 
 ## 基本概念
 
 ### 25 个关键词
 
-![](./17206022109543.jpg)
+![golang-keywords](./17206022109543.jpg)
 
 ### 包
 
@@ -116,12 +116,12 @@ fmt.Println(m)
 
 // 从map中获取key为hello的value，如果取到了赋值给v，并把ok设为true(表示获取到值)
 if v, ok := m["hello"]; ok {
-	fmt.Printf("m[%s] is %d \n", "hello", v)
+ fmt.Printf("m[%s] is %d \n", "hello", v)
 }
 
 // 如果只需要 k 或者 v 你可以使用 下划线作为占位符忽略值
 for k, _ := range m {
-	fmt.Printf("k is %s\n", k)
+ fmt.Printf("k is %s\n", k)
 }
 ```
 
@@ -292,10 +292,10 @@ loop:
 ## 周边工具
 
 - goimports：自动 import
-  - 说明： https://blog.boot.dev/golang/format-on-save-vs-code-golang/
+  - 说明： <https://blog.boot.dev/golang/format-on-save-vs-code-golang/>
   - 安装：`go install golang.org/x/tools/cmd/goimports@latest`
 - golint：
-  - 说明：https://golangci-lint.run/
+  - 说明：<https://golangci-lint.run/>
   - 安装：`brew install golangci-lint`
 
 ### 常用命令
@@ -305,7 +305,7 @@ loop:
 
 ## 资料
 
-- 快捷版入门：https://pegasuswang.github.io/LetsGo
-- 入门到进阶：https://github.com/jincheng9/go-tutorial
-- 完整视频教程：https://www.bilibili.com/video/BV1334y1U7cH/?spm_id_from=333.999.section.playall&vd_source=5aca4d2c1274f0ad427819c072c418c7
-- 系统化书籍：https://github.com/unknwon/the-way-to-go_ZH_CN
+- 快捷版入门：<https://pegasuswang.github.io/LetsGo>
+- 入门到进阶：<https://github.com/jincheng9/go-tutorial>
+- 完整视频教程：<https://www.bilibili.com/video/BV1334y1U7cH/?spm_id_from=333.999.section.playall&vd_source=5aca4d2c1274f0ad427819c072c418c7>
+- 系统化书籍：<https://github.com/unknwon/the-way-to-go_ZH_CN>

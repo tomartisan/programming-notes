@@ -1,25 +1,24 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import { themes as prismThemes } from "prism-react-renderer";
+import type { Config } from "@docusaurus/types";
+import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: 'Programming Notes',
-  tagline: 'The way to coding, from beginner to master',
-  favicon: 'img/favicon.ico',
+  title: "Programming Notes",
+  tagline: "The way to coding, from beginner to master",
+  favicon: "img/favicon.ico",
 
+  url: "https://pro.tomartisan.com",
+  baseUrl: "/",
 
-  url: 'https://pro.tomartisan.com',
-  baseUrl: '/',
+  organizationName: "tomartisan",
+  projectName: "programming-notes",
 
-  organizationName: 'tomartisan',
-  projectName: 'programming-notes',
-
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   markdown: {
@@ -29,18 +28,17 @@ const config: Config = {
 
   presets: [
     [
-      'classic',
+      "classic",
       {
         docs: {
-          sidebarPath: './sidebars.ts',
-          editUrl:
-            'https://github.com/tomartisan/programming-notes/tree/master/doc-site',
+          sidebarPath: "./sidebars.ts",
+          editUrl: "https://github.com/tomartisan/programming-notes/tree/master/doc-site",
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
         gtag: {
-          trackingID: 'G-KKPJWZERMC',
+          trackingID: "G-KKPJWZERMC",
           anonymizeIP: false,
         },
       } satisfies Preset.Options,
@@ -62,7 +60,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    image: "img/docusaurus-social-card.jpg",
     docs: {
       versionPersistence: "localStorage",
       sidebar: {
@@ -71,92 +69,92 @@ const config: Config = {
       },
     },
     navbar: {
-      title: 'Home',
+      title: "Home",
       logo: {
-        alt: 'Programming Notes Logo',
-        src: 'img/logo.svg',
+        alt: "Programming Notes Logo",
+        src: "img/logo.svg",
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'golangSidebar',
-          position: 'left',
-          label: 'Go',
+          type: "docSidebar",
+          sidebarId: "golangSidebar",
+          position: "left",
+          label: "Go",
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'kotlinSidebar',
-          position: 'left',
-          label: 'Kotlin',
+          type: "docSidebar",
+          sidebarId: "pythonSidebar",
+          position: "left",
+          label: "Python",
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'pythonSidebar',
-          position: 'left',
-          label: 'Python',
+          type: "docSidebar",
+          sidebarId: "rustSidebar",
+          position: "left",
+          label: "Rust",
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'rustSidebar',
-          position: 'left',
-          label: 'Rust',
+          type: "docSidebar",
+          sidebarId: "kotlinSidebar",
+          position: "left",
+          label: "Kotlin",
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'swiftSidebar',
-          position: 'left',
-          label: 'Swift',
+          type: "docSidebar",
+          sidebarId: "swiftSidebar",
+          position: "left",
+          label: "Swift",
         },
         {
           type: "search",
           position: "right",
         },
         {
-          href: 'https://github.com/tomartisan/programming-notes',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/tomartisan/programming-notes",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Help',
+          title: "Help",
           items: [
             {
-              label: 'What is this',
-              to: '/docs/intro',
+              label: "What is this",
+              to: "/docs/intro",
             },
             {
-              label: 'How to use',
-              to: '/docs/usage',
+              label: "How to use",
+              to: "/docs/usage",
             },
           ],
         },
         {
-          title: 'Social Media',
+          title: "Social Media",
           items: [
             {
-              label: 'X',
-              href: 'https://x.com/tomartisan',
+              label: "X",
+              href: "https://x.com/tomartisan",
             },
             {
-              label: 'Youtube',
-              href: 'https://www.youtube.com/@itomartisan',
-            }
+              label: "Youtube",
+              href: "https://www.youtube.com/@itomartisan",
+            },
           ],
         },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'Chinese Posts',
-              href: 'https://tomartisan.com',
+              label: "Chinese Posts",
+              href: "https://tomartisan.com",
             },
             {
-              label: 'English Posts',
-              href: 'https://tomartisan.medium.com',
+              label: "English Posts",
+              href: "https://tomartisan.medium.com",
             },
           ],
         },
