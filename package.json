@@ -6,12 +6,12 @@
   "packageManager": "pnpm@9.15.2",
   "scripts": {
     "nr": "nr",
-    "start": "cd doc-site && nr start",
+    "start": "cd docusaurus && nr start",
     "background:devs": "pm2 start app-dev.json",
     "background:prod": "pm2 start app.json",
-    "clear": "cd doc-site && nr clear",
-    "publish": "cd doc-site && nr build",
-    "prettier": "cd doc-site && nr format:docs"
+    "clear": "cd docusaurus && nr clear",
+    "publish": "cd docusaurus && nr build",
+    "prettier": "cd docusaurus && nr format:docs"
   },
   "devDependencies": {
     "@antfu/ni": "^23.2.0",

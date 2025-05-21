@@ -32,7 +32,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          editUrl: "https://github.com/tomartisan/programming-notes/tree/master/doc-site",
+          editUrl: "https://github.com/tomartisan/programming-notes/tree/master/docusaurus",
         },
         theme: {
           customCss: "./src/css/custom.css",

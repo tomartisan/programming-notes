@@ -1,5 +1,5 @@
 {
     "name": "Programming Notes",
     "script": "pnpm run build && pnpm run serve",
-    "cwd":"./doc-site"
+    "cwd":"./docusaurus"
 }
