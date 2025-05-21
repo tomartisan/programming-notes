@@ -10,7 +10,7 @@
     "background:devs": "pm2 start app-dev.json",
     "background:prod": "pm2 start app.json",
     "clear": "cd docusaurus && nr clear",
-    "publish": "cd docusaurus && nr build",
+    "publish": "cd docusaurus && nr deploy",
     "prettier": "cd docusaurus && nr format:docs"
   },
   "devDependencies": {
