@@ -77,21 +77,15 @@ const config: Config = {
       items: [
         {
           type: "docSidebar",
-          sidebarId: "golangSidebar",
+          sidebarId: "typescriptSidebar",
           position: "left",
-          label: "Go",
+          label: "Typescript",
         },
         {
           type: "docSidebar",
           sidebarId: "pythonSidebar",
           position: "left",
           label: "Python",
-        },
-        {
-          type: "docSidebar",
-          sidebarId: "rustSidebar",
-          position: "left",
-          label: "Rust",
         },
         {
           type: "docSidebar",
@@ -104,6 +98,18 @@ const config: Config = {
           sidebarId: "swiftSidebar",
           position: "left",
           label: "Swift",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "golangSidebar",
+          position: "left",
+          label: "Go",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "rustSidebar",
+          position: "left",
+          label: "Rust",
         },
         {
           type: "search",
