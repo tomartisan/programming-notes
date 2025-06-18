@@ -193,3 +193,19 @@ node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+## Build files
+# Ignore all files in example-codes
+example-codes/**
+!example-codes/**/
+# But track source code files
+!example-codes/**/*.go
+!example-codes/**/*.rs
+!example-codes/**/*.swift
+!example-codes/**/*.kt
+!example-codes/**/*.java
+!example-codes/**/*.py
+!example-codes/**/*.ts
+!example-codes/**/*.js
+!example-codes/**/*.tsx
+!example-codes/**/*.jsx
