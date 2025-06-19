@@ -1,7 +1,7 @@
 {
   "name": "programming-notes",
   "version": "1.0.0",
-  "packageManager": "pnpm@9.15.2",
+  "packageManager": "pnpm@10.10.0",
   "scripts": {
     "docusaurus": "docusaurus",
     "clear": "docusaurus clear",
@@ -16,25 +16,25 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "3.6.3",
-    "@docusaurus/plugin-ideal-image": "3.6.3",
-    "@docusaurus/preset-classic": "3.6.3",
-    "@docusaurus/utils": "3.6.3",
-    "@docusaurus/utils-common": "3.6.3",
+    "@docusaurus/core": "3.8.1",
+    "@docusaurus/plugin-ideal-image": "3.8.1",
+    "@docusaurus/preset-classic": "3.8.1",
+    "@docusaurus/utils": "3.8.1",
+    "@docusaurus/utils-common": "3.8.1",
     "@mdx-js/react": "^3.1.0",
-    "clsx": "^2.1.0",
-    "docusaurus-plugin-image-zoom": "^2.0.0",
-    "prism-react-renderer": "^2.4.0",
+    "clsx": "^2.1.1",
+    "docusaurus-plugin-image-zoom": "^3.0.1",
+    "prism-react-renderer": "^2.4.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.6.3",
-    "@docusaurus/tsconfig": "3.6.3",
-    "@docusaurus/types": "3.6.3",
-    "prettier": "^3.4.2",
+    "@docusaurus/module-type-aliases": "3.8.1",
+    "@docusaurus/tsconfig": "3.8.1",
+    "@docusaurus/types": "3.8.1",
+    "prettier": "^3.5.3",
     "prettier-plugin-lint-md": "^1.0.1",
-    "typescript": "~5.6.2"
+    "typescript": "~5.8.3"
   },
   "browserslist": {
     "production": [

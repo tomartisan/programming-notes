@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "The road to coding world. learning programming from here",
   "main": "index.js",
-  "packageManager": "pnpm@9.15.2",
+  "packageManager": "pnpm@10.10.0",
   "scripts": {
     "nr": "nr",
     "start": "cd docusaurus && nr start",
@@ -14,12 +14,12 @@
     "prettier": "cd docusaurus && nr format:docs"
   },
   "devDependencies": {
-    "@antfu/ni": "^23.2.0",
-    "gulp": "^5.0.0",
+    "@antfu/ni": "^25.0.0",
+    "gulp": "^5.0.1",
     "gulp-cache": "^1.1.3",
     "gulp-imagemin": "^9.1.0",
     "gulp-webp": "^5.0.0",
-    "pm2": "^5.4.3",
+    "pm2": "6.0.8",
     "webp-converter": "^2.3.3"
   },
   "repository": {
