@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "The road to coding world. learning programming from here",
   "main": "index.js",
-  "packageManager": "pnpm@10.10.0",
+  "packageManager": "pnpm@10.14.0",
   "scripts": {
     "nr": "nr",
     "start": "cd docusaurus && nr start",

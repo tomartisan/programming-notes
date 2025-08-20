@@ -15,7 +15,4 @@ After the compilation, you will see a binary file `hello_world`, which is Rust's
 
 ![rust build](./17502353828529.jpg)
 
-
 ## Things to Keep in Mind
-
-
