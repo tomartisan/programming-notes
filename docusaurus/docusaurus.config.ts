@@ -83,9 +83,9 @@ const config: Config = {
         },
         {
           type: "docSidebar",
-          sidebarId: "pythonSidebar",
+          sidebarId: "swiftSidebar",
           position: "left",
-          label: "Python",
+          label: "Swift",
         },
         {
           type: "docSidebar",
@@ -95,21 +95,15 @@ const config: Config = {
         },
         {
           type: "docSidebar",
-          sidebarId: "swiftSidebar",
-          position: "left",
-          label: "Swift",
-        },
-        {
-          type: "docSidebar",
-          sidebarId: "golangSidebar",
-          position: "left",
-          label: "Go",
-        },
-        {
-          type: "docSidebar",
           sidebarId: "rustSidebar",
           position: "left",
           label: "Rust",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "otherSidebar",
+          position: "left",
+          label: "Others",
         },
         {
           type: "search",
